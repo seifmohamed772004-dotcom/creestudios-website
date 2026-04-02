@@ -1,0 +1,34 @@
+.login-counter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h1{margin: 0;}
+h2{margin: 0;}
+
+@font-face {
+    font-family: Choldera;
+  src: url(../Choldera\ Demo.ttf);
+}
+
+@font-face {
+    font-family: Unbounded;
+     src: url(../Unbounded.ttf);
+}
+
+.Counterheading{font-family: Unbounded;
+font-size: 16px;
+color: #ffeedc;
+line-height: 1;
+width: max-content;
+font-weight: 400;
+text-transform: uppercase;}
+
+.CounterNumber{font-family: Choldera;
+font-size: 32px;
+color: #ffeedc;
+line-height: 1;
+font-weight: 400;
+text-transform: uppercase;}
