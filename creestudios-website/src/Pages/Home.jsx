@@ -4,6 +4,7 @@ import CommunitySection from '../Common-Home/CommunitySection';
 import FeaturesSection from '../Common-Home/FeaturesSection';
 import { ResultsSection } from '../Common-Home/ResultsSection';
 import { PartnersSection } from '../Common-Home/PartnersSection';
+import { HeroSection } from '../Common-Home/HeroSection';
 
 const Home = () => {
   return (<>
@@ -12,6 +13,7 @@ const Home = () => {
    <FeaturesSection/>
    <ResultsSection/>
    <PartnersSection/>
+   <HeroSection/>
   </>
   );
 };
