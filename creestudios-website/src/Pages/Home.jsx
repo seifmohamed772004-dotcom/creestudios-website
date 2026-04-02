@@ -3,6 +3,7 @@ import ArticlesSection from '../Common-Home/ArticlesSection';
 import CommunitySection from '../Common-Home/CommunitySection';
 import FeaturesSection from '../Common-Home/FeaturesSection';
 import { ResultsSection } from '../Common-Home/ResultsSection';
+import { PartnersSection } from '../Common-Home/PartnersSection';
 
 const Home = () => {
   return (<>
@@ -10,6 +11,7 @@ const Home = () => {
    <CommunitySection/>
    <FeaturesSection/>
    <ResultsSection/>
+   <PartnersSection/>
   </>
   );
 };
