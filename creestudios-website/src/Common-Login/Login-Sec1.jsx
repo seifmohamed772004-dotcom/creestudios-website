@@ -9,6 +9,7 @@ import Video from '../Assets/Background Video.mp4';
 import showIcon from "../Assets/Shown Icon.png";   // eye open
 import hideIcon from "../Assets/Hidden Icon.png";   // eye closed
 import Checkmark from '../Components/checkmark.jsx';
+import { Link } from 'react-router-dom';
 
 const LoginSec1 = () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -138,7 +139,8 @@ const LoginSec1 = () => {
 </section>
 
 <section className='sec1rightbottom'>
-    <button type='button' className='LoginRightSubmit'>Sign In</button>
+    {/* Changed /Home to /home */}
+    <Link to="/home" className='LinkS'><button type='button' className='LoginRightSubmit'>Sign In</button></Link>
     <button type='button' className='LoginRightGoogle'>Sign in with Google</button>
 </section>
 

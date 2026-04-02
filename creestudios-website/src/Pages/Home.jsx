@@ -1,11 +1,9 @@
 import React from 'react';
+import ArticlesSection from '../Common-Home/ArticlesSection';
 
 const Home = () => {
   return (
-    <main>
-      <h1>Welcome to Cree Studios</h1>
-      <p>Discover our digital advertising and creative services.</p>
-    </main>
+   <ArticlesSection/>
   );
 };
 

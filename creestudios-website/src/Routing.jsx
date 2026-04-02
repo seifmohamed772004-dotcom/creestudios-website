@@ -11,13 +11,13 @@ const Routing = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="subscription" element={<Subscription />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<Error />} />
-        </Route>
+        {/* Make these sibling routes instead of nesting them inside Login */}
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/subscription" element={<Subscription />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
