@@ -1,0 +1,220 @@
+/* LeadersSection.css */
+.leadersSec {
+    width: 100%;
+    background-color: #181818;
+    padding: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.leadersSecContainer {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leadersSecHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.leadersSecLabel {
+    font-family: Unbounded;
+    color: #55A887;
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.leadersSecTitle {
+    font-family: Choldera;
+    line-height: 1;
+    font-weight: 100;
+}
+
+.leadersTitleSpanLight {
+    color: #ffeedc;
+    font-size: 96px;
+}
+
+.leadersTitleSpanDark {
+    color: #55A887;
+    font-size: 96px;
+}
+
+.leadersSecLayout {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.leadersSecLeft {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.leadersSecRight {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.leadersSecMainCard {
+    background-color: rgba(95,186,167,0.05);
+    border: 2px solid #55A887;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+.leadersSecMainAvatar {
+    background-color: #55A887;
+    border-radius: 16px;
+    width: 96px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.leadersSecEmoji {
+    font-size: 48px;
+}
+
+.leadersSecMainInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.leadersSecMainName {
+    font-family: Choldera;
+    color: #ffeedc;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.leadersSecMainTitle {
+    font-family: Unbounded;
+    color: #55A887;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.leadersSecMainDesc {
+    font-family: Unbounded;
+    color: #ffeedc;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.leadersSecMainQuote {
+    background-color: #709987;
+    border-left: 4px solid #55A887;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 0;
+}
+
+.leadersSecQuoteText {
+    font-family: Unbounded;
+    color: #ffeedc;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.leadersSecSocials {
+    display: flex;
+    gap: 1rem;
+}
+
+.leadersSecSocialBtn {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    border: 1px solid rgba(255,238,220,0.3);
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Unbounded;
+    font-weight: bold;
+    color: #ffeedc;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.leadersSecSubCard {
+    background-color: #181818;
+    border: 1px solid rgba(255,238,220,0.2);
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+.leadersSecSubAvatar {
+    background-color: #55A887;
+    border-radius: 16px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.leadersSecEmojiSm {
+    font-size: 24px;
+}
+
+.leadersSecSubName {
+    font-family: Choldera;
+    color: #ffeedc;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.leadersSecSubTitle {
+    font-family: Unbounded;
+    color: #55A887;
+    font-size: 16px;
+}
+
+.leadersSecSubLocation {
+    font-family: Unbounded;
+    color: #ffeedc;
+    font-size: 16px;
+}
+
+.leadersSecLoginBtn {
+    width: 100%;
+    padding: 24px;
+    background-color: #181818;
+    border: 1px solid rgba(255,238,220,0.1);
+    border-radius: 4px;
+    font-family: Unbounded;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 32px;
+    transition: background 0.2s ease;
+}
+
+.leadersSecLoginBtn:hover {
+    background: #709987;
+}

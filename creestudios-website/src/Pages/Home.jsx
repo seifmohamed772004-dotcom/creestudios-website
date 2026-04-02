@@ -5,6 +5,7 @@ import FeaturesSection from '../Common-Home/FeaturesSection';
 import { ResultsSection } from '../Common-Home/ResultsSection';
 import { PartnersSection } from '../Common-Home/PartnersSection';
 import { HeroSection } from '../Common-Home/HeroSection';
+import { LeadersSection } from '../Common-Home/Leaders';
 
 const Home = () => {
   return (<>
@@ -14,6 +15,7 @@ const Home = () => {
    <ResultsSection/>
    <PartnersSection/>
    <HeroSection/>
+   <LeadersSection/>
   </>
   );
 };
