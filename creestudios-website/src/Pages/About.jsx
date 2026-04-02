@@ -10,6 +10,7 @@ const About = () => {
  <>
   <HeroSection/>
   <IndustriesSection/>
+  <FeaturesSection/>
   <StartToFinishSection />
   <FooterSection/>
  </>
