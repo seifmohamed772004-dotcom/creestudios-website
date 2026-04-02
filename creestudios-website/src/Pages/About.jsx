@@ -1,11 +1,11 @@
 import React from 'react';
+import { HeroSection } from '../Common-About/HeroSection';
 
 const About = () => {
   return (
-    <main>
-      <h1>About Cree Studios</h1>
-      <p>Learn about our team, mission, and creative process.</p>
-    </main>
+ <>
+  <HeroSection/>
+ </>
   );
 };
 

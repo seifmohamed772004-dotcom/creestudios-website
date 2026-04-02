@@ -6,6 +6,7 @@ import { ResultsSection } from '../Common-Home/ResultsSection';
 import { PartnersSection } from '../Common-Home/PartnersSection';
 import { HeroSection } from '../Common-Home/HeroSection';
 import { LeadersSection } from '../Common-Home/Leaders';
+import FooterSection from '../Components/Footer';
 
 const Home = () => {
   return (<>
@@ -16,7 +17,7 @@ const Home = () => {
    <ArticlesSection/>
    <LeadersSection/>
    <ResultsSection/>
-   <footer/>
+  <FooterSection/>
   </>
   );
 };

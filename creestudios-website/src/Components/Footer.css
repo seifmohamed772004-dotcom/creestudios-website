@@ -1,0 +1,305 @@
+.footerBody {
+    width: 100%;
+    background-color: #181818;
+    border-top: 1px solid #f5e6d31a;
+    padding: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    box-sizing: border-box;
+}
+
+.footerTopRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.footerBrandSec {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footerLogoText {
+    font-family: Choldera;
+    color: #ffeedc;
+    font-size: 36px;
+}
+
+.footerBrandDesc {
+    font-family: Unbounded;
+    color: #ffeedc;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footerSocials {
+    display: flex;
+    gap: 12px;
+}
+
+.footerSocialBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #ffeedc4d;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.footerSocialBtn:hover {
+    background-color: #55A887;
+    border-color: #55A887;
+}
+
+.footerSocialBtn:hover .footerSocialText {
+    color: #181818; /* Usually better contrast on hover */
+}
+
+.footerSocialText {
+    font-family: Unbounded;
+    font-weight: 700;
+    color: #ffeedc;
+    font-size: 12px;
+}
+
+.footerNewsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footerNewsletterLabel {
+    font-family: Unbounded;
+    font-weight: 600;
+    color: #ffeedc;
+    font-size: 14px;
+}
+
+.footerNewsletterInputWrap {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.footerInput {
+    flex: 1;
+    background-color: #ffeedc0d;
+    border: 1px solid #ffeedc33;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: #ffeedc;
+    font-family: Unbounded;
+    font-size: 14px;
+    outline: none;
+}
+
+.footerInput:focus {
+    border-color: #55A887;
+}
+
+.footerSubmitBtn {
+    background-color: #55A887;
+    color: #ffeedc;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-family: Unbounded;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footerLinksSec {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinkColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footerLinkCategory {
+    font-family: Unbounded;
+    font-weight: 600;
+    color: #ffeedc;
+    font-size: 14px;
+}
+
+.footerLinkList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footerLinkItem {
+    font-family: Unbounded;
+    color: #ffeedc;
+    opacity: 0.6;
+    font-size: 14px;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.footerLinkItem:hover {
+    opacity: 1;
+}
+
+.footerCtaBanner {
+    width: 100%;
+    background: linear-gradient(to right, #55A887, #709987);
+    border-radius: 16px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.footerCtaTextWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 60%;
+}
+
+.footerCtaTitle {
+    font-family: Choldera;
+    color: #ffeedc;
+    font-size: 48px;
+}
+
+.footerCtaDesc {
+    font-family: Unbounded;
+    color: #ffeedc;
+    opacity: 0.9;
+    font-size: 16px;
+}
+
+.footerCtaBtn {
+    background-color: #ffeedc;
+    color: #181818;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-family: Unbounded;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.footerBottomBar {
+    width: 100%;
+    border-top: 1px solid #ffeedc1a;
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerBottomLeft {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footerCopyright {
+    font-family: Unbounded;
+    color: #ffeedc;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.footerLegalLinks {
+    display: flex;
+    gap: 24px;
+}
+
+.footerLegalItem {
+    font-family: Unbounded;
+    color: #ffeedc;
+    opacity: 0.5;
+    font-size: 14px;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.footerLegalItem:hover {
+    opacity: 1;
+}
+
+.footerLanguageSelector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footerLangIcon {
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+}
+
+.footerLangDropdown {
+    background: transparent;
+    border: 1px solid #ffeedc33;
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: #ffeedc;
+    font-family: Unbounded;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.footerLangDropdown:focus {
+    border-color: #55A887;
+}
+
+.footerLangDropdown option {
+    background-color: #181818;
+    color: #ffeedc;
+}
+
+.footerScrollTop {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    background-color: #55A887;
+    color: #ffeedc;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    z-index: 50;
+}
+
+.footerScrollTopIcon {
+    font-size: 20px;
+    line-height: 1;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from "motion/react";
 import imgImageCreestudios from "../Assets/White Logo.png";
 import '../Common-Home/HeroSection.css';
+import { Link } from 'react-router-dom';
 
 export function HeroSection() {
     return (
@@ -84,7 +85,7 @@ export function HeroSection() {
                                     className="heroBtnSecondaryWrapper"
                                 >
                                     <div className="heroBtnSecondary">
-                                        <span className="heroBtnSecondaryText">EXPLORE</span>
+                                        <Link to="/About" className='LinkS'><span className="heroBtnSecondaryText">EXPLORE</span></Link>
                                     </div>
                                 </motion.button>
                             </section>
