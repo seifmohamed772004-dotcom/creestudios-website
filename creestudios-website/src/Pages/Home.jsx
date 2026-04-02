@@ -9,13 +9,14 @@ import { LeadersSection } from '../Common-Home/Leaders';
 
 const Home = () => {
   return (<>
-   <ArticlesSection/>
+   <HeroSection/>
+   <PartnersSection/>
    <CommunitySection/>
    <FeaturesSection/>
-   <ResultsSection/>
-   <PartnersSection/>
-   <HeroSection/>
+   <ArticlesSection/>
    <LeadersSection/>
+   <ResultsSection/>
+   <footer/>
   </>
   );
 };
