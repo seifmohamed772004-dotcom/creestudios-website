@@ -1,0 +1,111 @@
+.workflow-section {
+  position: relative;
+  background-color: #181818;
+  padding: 4rem 1rem;
+}
+
+.workflow-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.workflow-header {
+  margin-bottom: 3rem;
+}
+
+.workflow-subtitle {
+  font-family: 'Unbounded:Regular', sans-serif;
+  font-size: clamp(0.875rem, 2vw, 1rem);
+  color: #55a887;
+  opacity: 0.5;
+  margin: 0 0 1.5rem 0;
+}
+
+.workflow-title {
+  font-family: 'Choldera__DEMO:Regular', sans-serif;
+  font-size: clamp(3.5rem, 8vw, 6rem);
+  line-height: 1;
+  color: white;
+  margin: 0;
+}
+
+.workflow-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.workflow-step-card {
+  border: 1px solid rgba(255, 238, 220, 0.2);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(24, 24, 24, 0.5);
+  backdrop-filter: blur(4px);
+  transition: border-color 0.3s ease;
+}
+
+.workflow-step-card:hover {
+  border-color: rgba(85, 168, 135, 0.4);
+}
+
+.step-badge {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #55a887;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.step-num {
+  font-family: 'Unbounded:Black', sans-serif;
+  font-size: clamp(1.125rem, 3vw, 1.5rem);
+  color: #181818;
+}
+
+.step-emoji {
+  font-size: clamp(1.875rem, 5vw, 3rem);
+  margin: 0;
+}
+
+.step-title {
+  font-family: 'Choldera__DEMO:Regular', sans-serif;
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.step-time {
+  font-family: 'Unbounded:Regular', sans-serif;
+  font-size: 0.75rem;
+  color: white;
+  opacity: 0.7;
+  text-align: center;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .workflow-section { padding: 4rem 2rem; }
+}
+@media (min-width: 768px) {
+  .workflow-section { padding: 5rem 2rem; }
+  .workflow-header { margin-bottom: 4rem; }
+  .workflow-subtitle { margin-bottom: 2rem; }
+  .workflow-list { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .workflow-step-card { padding: 2rem; gap: 1.25rem; }
+  .step-badge { width: 4rem; height: 4rem; }
+}
+@media (min-width: 1024px) {
+  .workflow-section { padding: 6rem 5rem; }
+  .workflow-list { grid-template-columns: repeat(5, 1fr); }
+}
