@@ -8,6 +8,7 @@ import LineWaves from '../Common-Login/LineWaves .jsx';
 import Video from '../Assets/Background Video.mp4';
 import showIcon from "../Assets/Shown Icon.png";   // eye open
 import hideIcon from "../Assets/Hidden Icon.png";   // eye closed
+import Checkmark from '../Components/checkmark.jsx';
 
 const LoginSec1 = () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -124,9 +125,22 @@ const LoginSec1 = () => {
         </div>
     </label>
 
-    <button type='button' className='LoginRightSubmit'>Sign In</button>
+<section className='belowinputs'>
+<section className='belowinputsleft'>
+<Checkmark/>
+<span className='rememberMeText'>Remember Me</span>
 </section>
 
+<h1 className='forgotPasswordText'>Forgot Password?</h1>
+
+</section>
+
+</section>
+
+<section className='sec1rightbottom'>
+    <button type='button' className='LoginRightSubmit'>Sign In</button>
+    <button type='button' className='LoginRightGoogle'>Sign in with Google</button>
+</section>
 
 
 

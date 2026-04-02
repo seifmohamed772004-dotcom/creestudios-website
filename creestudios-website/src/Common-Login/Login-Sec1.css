@@ -254,8 +254,8 @@ gap: 0.75rem;
 
 .formLabel{
 font-family: Unbounded;
-font-size: 16px;
-font-weight: 400;
+font-size: 12px;
+font-weight: 200;
 color: #ffeedc;
 letter-spacing: 0.1em;
 opacity: 0.7;
@@ -264,6 +264,7 @@ opacity: 0.7;
 .formInput{
 width: 100%;
 padding: 20px 16px;
+font-weight: 100;
 border-radius: 4px;
 border: 1px solid #ffeedc39;
 background: #181818;
@@ -276,7 +277,7 @@ transition: 0.2s ease-in;
 }
 
 .formInput:focus{
-border-color: #55A887;
+border-color: #ffeedc;
 }
 
 .passwordWrapper{
@@ -311,7 +312,7 @@ color: #ffeedc;
 font-family: Unbounded;
 font-size: 20px 16px;
 text-transform: uppercase;
-font-weight: 400;
+font-weight: 300;
 border: 1px solid #ffeedc39;
 cursor: pointer;
 transition: background 0.2s ease;
@@ -319,6 +320,8 @@ transition: background 0.2s ease;
 
 .LoginRightSubmit:hover{
 background: #709987;
+font-weight: 300;
+
 }
 
 
@@ -328,4 +331,86 @@ background: #709987;
     object-fit: contain;
     filter: brightness(0) invert(1);
     opacity: 0.7;
+}
+
+
+.rememberMeText{color: #ffeedc;
+font-family: Unbounded;
+font-size: 12px;
+line-height: 1;
+font-weight: 300;
+opacity: 0.7;}
+
+.belowinputsleft{
+display: flex; gap: 0.5rem;
+justify-content: center;
+align-items: center;
+width: fit-content;
+}
+
+.belowinputs{width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.forgotPasswordText{color: #ffeedc;
+font-family: Unbounded;
+font-size: 16px;
+font-weight: 300;
+opacity: 0.7;}
+
+.forgotPasswordText:hover{color: #ffeedc;
+font-family: Unbounded;
+font-size: 16px;
+font-weight: 300;
+opacity: 1;}
+
+.LoginRightGoogle{
+    width: 100%;
+padding: 16px;
+box-sizing: border-box;
+border: none;
+border-radius: 4px;
+background: #ffeedc;
+font-size: 16px;
+color: #181818;
+font-family: Unbounded;
+font-size: 20px 16px;
+text-transform: uppercase;
+font-weight: 300;
+border: 1px solid #ffeedc39;
+cursor: pointer;
+transition: background 0.2s ease;
+}
+
+.LoginRightGoogle:hover{
+    width: 100%;
+padding: 16px;
+box-sizing: border-box;
+border: none;
+border-radius: 4px;
+background: #e0d6cc;
+font-size: 16px;
+color: #181818;
+font-family: Unbounded;
+font-size: 20px 16px;
+text-transform: uppercase;
+font-weight: 300;
+border: 1px solid #ffeedc39;
+cursor: pointer;
+transition: background 0.2s ease;
+}
+
+.LoginRightGoogle::before{content: url(../Assets/Google.png);
+    align-self: center;
+    margin-top: 4px;
+margin-left: -30px;
+position: absolute;
+}
+.sec1rightbottom{width: 100%;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+justify-content: center;
+align-items: center;
 }
