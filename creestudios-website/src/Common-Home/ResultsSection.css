@@ -1,0 +1,226 @@
+.body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+
+.resultsSec {
+    width: 100%;
+    background-color: #181818;
+    padding: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.resultsSecContainer {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resultsSecHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.resultsSecLabel {
+    font-family: Unbounded;
+    color: #55A887;
+    opacity: 0.5;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.resultsSecTitle {
+    font-family: Choldera;
+    line-height: 1;
+    font-weight: 100;
+}
+
+.resultsTitleSpanLight {
+    color: #ffeedc;
+    font-size: 96px;
+}
+
+.resultsTitleSpanDark {
+    color: #55A887;
+    font-size: 96px;
+}
+
+.resultsSecCard {
+    background-color: #181818;
+    border: 1px solid rgba(255,238,220,0.2);
+    border-radius: 16px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+.resultsSecCardTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255,238,220,0.2);
+}
+
+.resultsSecCardTopLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.resultsSecBadge {
+    background-color: #55A887;
+    border: 1px solid rgba(95,186,167,0.3);
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-family: Unbounded;
+    color: #ffeedc;
+    font-size: 14px;
+    width: fit-content;
+}
+
+.resultsSecCardTitles {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.resultsSecCardTitle {
+    font-family: Choldera;
+    color: #ffeedc;
+    font-size: 64px;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+.resultsSecCardSubtitle {
+    font-family: Unbounded;
+    color: #55A887;
+    font-size: 24px;
+}
+
+.resultsSecIcon {
+    background-color: #55A887;
+    border-radius: 16px;
+    width: 128px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.resultsSecIconEmoji {
+    font-size: 64px;
+}
+
+.resultsSecGridContainer {
+    background-color: rgba(95,186,167,0.05);
+    border: 1px solid rgba(95,186,167,0.2);
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.resultsSecGridTitle {
+    font-family: Unbounded;
+    color: #55A887;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resultsSecGrid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.resultsSecGridItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.resultsGridItemValue {
+    font-family: Unbounded;
+    color: #55A887;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.resultsGridItemLabel {
+    font-family: Unbounded;
+    color: #ffeedc;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.resultsGridItemSublabel {
+    font-family: Unbounded;
+    color: #ffeedc;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.resultsSecCardBottom {
+    display: flex;
+    gap: 2rem;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,238,220,0.2);
+}
+
+.resultsSecCardBottomItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.resultsSecCardBottomLabel {
+    font-family: Unbounded;
+    color: #ffeedc;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.resultsSecCardBottomValue {
+    font-family: Unbounded;
+    color: #ffeedc;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.resultsSecLoginBtn {
+    width: 100%;
+    padding: 24px;
+    background-color: #181818;
+    border: 1px solid rgba(255,238,220,0.1);
+    border-radius: 4px;
+    font-family: Unbounded;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 32px;
+    transition: background 0.2s ease;
+}
+
+.resultsSecLoginBtn:hover {
+    background: #709987;
+}
